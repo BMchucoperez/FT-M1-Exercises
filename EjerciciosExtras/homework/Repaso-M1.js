@@ -100,7 +100,7 @@ LinkedList.prototype.changeNotNumbers = function(){
 var mergeQueues = function(queueOne, queueTwo) {
     // Tu código aca:
     
-    let newQueue = new Queue();
+    let newQueue = new Queue(); 
 
     while(queueOne.size() || queueTwo.size()){
         let firstQueue = queueOne.dequeue();
